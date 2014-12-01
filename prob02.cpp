@@ -1,7 +1,3 @@
-//aah! the comma input! let's see how long it takes to solve this one
-
-//started at 10:55 PM
-
 #include<iostream>
 #include<string.h>
 
