@@ -1,13 +1,9 @@
-//aah! the comma input! let's see how long it takes to solve this one
-
-//started at 10:55 PM
-
 #include<iostream>
 #include<string.h>
 
 using namespace std;
 
-int sez=1;
+int sez;
 int ar[50];
 
 int convert(char*);
@@ -22,6 +18,7 @@ int main()
 	cin>>n;
 	for(int i=0;i<n;i++)
 	{
+		sez=1;
 		if(lel==0)
 		{
 			cin.getline(in,151);
